@@ -1,0 +1,305 @@
+
+.container {
+    width: 94vw;
+    margin: 0 auto;
+}
+
+.nav {
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 0 1px #333;
+}
+
+.nav-bar {
+    position: relative;
+    display: flex;
+    display: -webkit-box;
+    /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box;
+    /* 老版本语法: Firefox (buggy) */
+    display: -ms-flexbox;
+    /* 混合版本语法: IE 10 */
+    display: -webkit-flex;
+    /* 新版本语法: Chrome 21+ */
+    justify-content: center;
+    -webkit-box-pack: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    align-items: center;
+    -webkit-box-align: center;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    height: .44rem;
+    font-size: .18rem;
+}
+
+.text-color-fe {
+    color: #fe426f;
+}
+
+.nav-bar>a {
+    position: absolute;
+   
+    font-size: .26rem;
+    color: #aeaeae;
+    display: flex;
+    display: -webkit-box;
+    /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box;
+    /* 老版本语法: Firefox (buggy) */
+    display: -ms-flexbox;
+    /* 混合版本语法: IE 10 */
+    display: -webkit-flex;
+    /* 新版本语法: Chrome 21+ */
+    align-items: center;
+    -webkit-box-align: center;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    
+}
+ .nav-bar>a:first-child{
+     left: 0;
+ }
+.nav-bar .search-box{
+        right: 0;
+        width: 24px;
+        height: 24px;
+        background: url("../img/nav_icon_search@2x.png") no-repeat;
+        background-size: 100% 100%;
+}
+
+.search-box-i{
+    position: absolute;
+   
+    font-size: .26rem;
+    color: #aeaeae;
+    display: flex;
+    display: -webkit-box;
+    /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box;
+    /* 老版本语法: Firefox (buggy) */
+    display: -ms-flexbox;
+    /* 混合版本语法: IE 10 */
+    display: -webkit-flex;
+    /* 新版本语法: Chrome 21+ */
+    align-items: center;
+    -webkit-box-align: center;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+      width: 14px;
+     height: 14px;
+     background: url("../img/search_icon_search@2x.png") no-repeat;
+     background-size: 100% 100%;
+     top: 7px;
+     left: 5px;
+}
+
+.search-input-box{
+    position: relative;
+    height: 28px;
+    width: 80%;
+
+}
+.search-input-box input{
+    width: 100%;
+    height: 100%;
+    color: rgb(174,174,174);
+    border: 1px solid #aeaeae;
+    border-radius: 40px;
+    padding-left:20px; 
+    font-size: .14rem;
+    outline: none;
+    background: #fff;
+     -webkit-appearance: none;
+
+}
+input{
+     -webkit-appearance: none;
+}
+
+
+.app-family-main{
+    margin-top: .07rem;
+}
+.app-family-list-box li{
+    width: 100%;
+    height: .9rem;
+    
+    background: #fff;
+    margin-bottom: 2px;
+
+}
+.app-family-list-box li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+     color: rgb(174,174,174);
+}
+.app-family-left{
+    width: 44px;
+    padding-top: 11px;
+    text-align: center;
+     display: flex;
+    display: -webkit-box;
+    /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box;
+    /* 老版本语法: Firefox (buggy) */
+    display: -ms-flexbox;
+    /* 混合版本语法: IE 10 */
+    display: -webkit-flex;
+    /* 新版本语法: Chrome 21+ */
+    align-items: center;
+    -webkit-box-align: center;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    flex-direction: column;
+}
+.app-family-icon{
+    display:block;
+    width: 24px;
+    height: 16px;
+   
+}
+.app-family-list-con{
+    position: relative;
+}
+.app-family-list-con>div{
+    float: left;
+}
+.app-family-icon-1{
+    background: url("../img/family_icon_top1.png") no-repeat;
+    background-size: 100% 100%;
+}
+.app-family-icon-2{
+    background: url("../img/family_icon_top2.png") no-repeat;
+    background-size: 100% 100%;
+}
+.app-family-icon-3{
+    background: url("../img/family_icon_top3.png") no-repeat;
+    background-size: 100% 100%;
+}
+.app-family-left img{
+    display: block;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
+
+.app-family-mid{
+    
+    height: 100%;
+    line-height: 0;
+    margin-left: .1rem;
+    padding-top: .35rem;
+}
+.app-family-mid p{
+    width: 100%;
+    font-size: .18rem;
+    color: rgb(64,64,64);
+    margin-bottom: .24rem;
+}
+.app-family-right{
+    line-height: 0;
+    position: absolute;
+    top: .59rem ;
+    right: 0;
+}
+
+.banner {
+    width: 100%;
+    /*height: 450px;*/
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner > ul {
+    display: none;
+    /*width: 100%;*/
+    /*height: 450px;*/
+    position: relative;
+    top:0;
+    left: 0;
+    /*display: flex;*/
+}
+
+.banner > ul > li  {
+    /*width: 100%;*/
+    /*flex: auto;*/
+    float: left;
+    /*height: 450px;*/
+}
+
+
+.banner > ul > li > a {
+    display: block;
+
+    text-align: center;
+    max-width: 100%;
+    /*line-height: 450px;*/
+    font-weight: bold;
+}
+.banner > ul > li  img {
+    display: block;
+    width: 100%;
+}
+
+
+.app-family-detail-main ul{
+    margin-bottom: .07rem;
+}
+
+.family-row{
+    background: #fff;
+    color: rgb(174,174,174);
+     margin-bottom: .07rem;
+    padding-top: .13rem;
+
+}
+.family-row .family-row-title{
+        display: block;
+      font-size: .18rem;
+    color: rgb(64,64,64);
+    margin-bottom: .1rem;
+   
+}
+.family-row-content{
+  line-height: .2rem;
+  height: 1.2rem;
+  overflow: hidden;
+  
+    text-overflow:ellipsis;
+white-space: wrap;
+}
+
+.family-row-content.active{
+    height: auto;
+}
+.family-row>div>p{
+    height: .4rem;
+    line-height: .4rem;
+    font-size: .16rem;
+    
+    text-align: center;
+}
+.family-row p a{
+     color: rgb(174,174,174);
+}
+.family-apply-box{
+    padding: .2rem 0;
+    text-align: center;
+    padding-bottom: .4rem;
+    
+
+}
+.family-apply-box a{
+    display: inline-block;
+    width: 2.29rem;
+    height: .43rem;
+    color: #fff;
+    background: #fe426f;
+    font-size: .16rem;
+    text-align: center;
+    line-height: .43rem;
+    border-radius: .05rem;
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <title>全民直播-认证主播</title>
+    <meta name="description" content="">
+
+    <meta name="keywords" content="" />
+
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <script src="js/es5-shim.min.js"></script>
+    <![endif]-->
+    <!--   <link rel="icon" href="img/favicon.ico"/> -->
+   
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/attestation.css">
+    <style>
+        .atte-a-main>div {
+            display: none;
+        }
+        .atte-b-main-box{
+            display: none;
+        }
+        .atte-b-main>.atte-b-info-img {
+            display: flex;
+        }
+        .atte-b-main-box .atte-b-info-text{
+            text-align: center;
+            flex-direction:column;
+            -webkit-flex-direction:column;
+             -moz-flex-direction:column;
+
+        }
+    </style>
+</head>
+
+<body>
+    <!--头部 导航栏-->
+    <header>
+
+    </header>
+    <div class="nav" style=" display: none;">
+        <div class="container nav-bar">
+            <a href="javascript:;" onclick="GoBackApp()" class="form-nav"> <i class="fa fa-angle-left"></i></a>
+
+            <span class="text-color-fe form-nav">实名认证结果</span>
+
+        </div>
+
+
+    </div>
+    <div class="atte-b-main atte-a-main">
+        <!--提示去认证-->
+        <div class="atte-b-info-text atte-after-info atte-after-succ-info">
+            <h3>恭喜！认证成功</h3>
+            <p>可以开启华丽的直播旅程了</p>
+        </div>
+        <div class="atte-b-info-text atte-after-info atte-after-ing-info" style="display:none;">
+            <h3>审核中....</h3>
+            <p>请您耐心等待</p>
+        </div>
+        <div class="atte-b-info-text atte-after-info atte-after-erro-info" style="display:none;">
+            <h3>认证失败</h3>
+            <p>失败原因: <span class="atte-after-erro-info-txt"></span></p>
+        </div>
+        <div class="atte-b-info-img atte-after-erro-info " style="display:none;">
+            <img src="img/629d90d0-2ebc-4baa-be59-a7c6a53946e9.png" alt="">
+        </div>
+        <div class="atte-b-info-img atte-after-ing-info" style="display:none;">
+            <img src="img/629d90d0-2ebc-4baa-be59-a7c6a53946e9.png" alt="">
+        </div>
+        <div class="atte-b-info-img  atte-after-succ-info" style="display:none;">
+            <img src="img/629d90d0-2ebc-4baa-be59-a7c6a53946e9.png" alt="">
+        </div>
+        <!--<div class="atte-b-info-btn atte-after-succ-info">
+            <a href="javascript:;" onclick="nowPlay()">立即开播</a>
+            <a href="javascript:;" onclick="nowNotPlay()" class="not-play">暂不开播</a>
+        </div>-->
+        <div class="atte-b-info-btn atte-after-ing-info">
+
+        </div>
+        <div class="atte-b-info-btn atte-after-erro-info">
+            <a href="#" class="now-go-check">立即认证</a>
+            <a href="#" style="display:none">更多认证方式</a>
+        </div>
+    </div>
+
+    <div class="atte-b-main  atte-b-main-box">
+        <!--提示去认证-->
+        <div class="atte-b-info-text">
+            <h3>您还没有实名认证</h3>
+            <p>根据相关法规，只有实名认证后才可以开播哦~</p>
+        </div>
+        <div class="atte-b-info-img">
+            <img src="img/629d90d0-2ebc-4baa-be59-a7c6a53946e9.png" alt="">
+        </div>
+        <div class="atte-b-info-btn">
+            <a href="" style="display:none;">支付宝一键认证</a>
+            <a href="https://www.baidu.com" class="now-go-check">立即认证</a>
+        </div>
+    </div>
+
+    
+  <script src="js/jquery-1.11.3.min.js"></script>
+   <script src="js/fetch.js"></script>
+   <!--<script src="js/browser.min.js"></script>-->
+   
+    <script src="m_js/atte_after.js"></script>
+    
+
+
+  
+</body>
+
+</html>

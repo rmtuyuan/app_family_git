@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <title>全民直播-家族列表</title>
+    <meta name="description" content="">
+
+    <meta name="keywords" content="" />
+
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <script src="js/es5-shim.min.js"></script>
+    <![endif]-->
+    <!--   <link rel="icon" href="img/favicon.ico"/> -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/app-family.css">
+
+    <style>
+        body {
+            background: #f6f6f6;
+        }
+    </style>
+</head>
+
+<body>
+    <!--头部 导航栏-->
+
+    <div class="nav">
+        <div class="container nav-bar">
+            <a href="javascript:;" onclick="history.back()" class="form-nav"> <i class="fa fa-angle-left"></i></a>
+            <span class="text-color-fe form-nav">家族详情</span>
+        </div>
+
+
+    </div>
+
+    <div class="banner">
+        <ul class="banner-container">
+            <li><img src="img/banner.png" alt=""></li>
+            <li><img src="img/banner.png" alt=""></li>
+            <li><img src="img/banner.png" alt=""></li>
+        </ul>
+        <div class="left-btn"></div>
+        <div class="right-btn"></div>
+        <div class="img-btn-list"></div>
+    </div>
+
+    <div class="app-family-main app-family-detail-main" style="margin-top:0;">
+
+        <ul class="app-family-list-box">
+            <li>
+                <a href="#">
+                    <div class="container app-family-list-con clearfloat">
+                        <div class="app-family-left">
+                            <i class="app-family-icon app-family-icon-1"></i>
+                            <img src="img/family_icon.jpg" alt="">
+                        </div>
+                        <div class="app-family-mid">
+                            <p>家族名称家族名称家族名称家族名称</p>
+                            <span>ID 5235223</span>
+                        </div>
+                        <div class="app-family-right">
+                            家族收益: <span>12312312312民票</span>
+                        </div>
+
+                    </div>
+                </a>
+
+            </li>
+
+        </ul>
+        <div class="family-row">
+            <div class="container">
+                <span class="family-row-title">家族公告</span>
+                <div class="family-row-content">
+                    并在common.js中封装成通用的函数，结果遇到了问题，运行时始终提示axios为undefined。我猜想这可能与import的机制有关，因为也是最近才了解import这个用法，所以具体原因无法解释。此处@各路高人，希望不吝赐教。 后来我采用的变通方法是在common.js中引入axios,这样上述的问题就解决了。
+                    接下来，遇到了另一个问题，关于promise,同样也是因为最近才尝试用promise，因此这个很简单的地方还是花了我很多的功夫去琢磨。结果遇到了问题，运行时始终提示axios为undefined。我猜想这可能与import的机制有关，因为也是最近才了解import这个用法，所以具体原因无法解释。此处@各路高人，希望不吝赐教。 后来我采用的变通方法是在common.js中引入axios,这样上述的问题就解决了。
+                    接下来，遇到了另一个问题，
+                </div>
+                <p><a href="#" class="js_getmore">查看更多</a></p>
+            </div>
+        </div>
+         <div class="family-row">
+            <div class="container">
+                <span class="family-row-title">家族公告</span>
+                <div class="family-row-content">
+                    并在common.js中封装成通用的函数，结果遇到了问题，运行时始终提示axios为undefined。我猜想这可能与import的机制有关，因为也是最近才了解import这个用法，所以具体原因无法解释。此处@各路高人，希望不吝赐教。 后来我采用的变通方法是在common.js中引入axios,这样上述的问题就解决了。
+                    接下来，遇到了另一个问题，关于promise,同样也是因为最近才尝试用promise，因此这个很简单的地方还是花了我很多的功夫去琢磨。结果遇到了问题，运行时始终提示axios为undefined。我猜想这可能与import的机制有关，因为也是最近才了解import这个用法，所以具体原因无法解释。此处@各路高人，希望不吝赐教。 后来我采用的变通方法是在common.js中引入axios,这样上述的问题就解决了。
+                    接下来，遇到了另一个问题，
+                </div>
+                <p><a href="#" class="js_getmore">查看更多</a></p>
+            </div>
+        </div>
+        <div class="family-apply-box">
+            <a href="#" class="js_apply_btn">申请加入</a>
+        </div>
+
+    </div>
+
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/fetch.js"></script>
+    <script src="js/bannerList.js"></script>
+    <!--<script src="js/browser.min.js"></script>-->
+    <script>
+        //轮播
+        bannerListFn(
+            $(".banner"),
+            $(".img-btn-list"),
+            $(".left-btn"),
+            $(".right-btn"),
+            3000,
+            true
+        );
+    </script>
+
+
+
+
+
+</body>
+
+</html>
